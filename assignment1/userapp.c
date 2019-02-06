@@ -9,7 +9,10 @@ int main()
 {
 	int fd=0;
 	//printf("cant open source ");
-	printf("enter the file to be read from(0 or 1 or 2) \n");
+	printf("enter the file to be read from:\n");
+	printf("for adxl_x enter 0\n");
+	printf("for adxl_y enter 1\n");
+	printf("for adxl_z enter 2\n");
 	scanf  ("%d", &z);
 	switch (z)
 	{
@@ -39,5 +42,3 @@ read(fd,buf,10);
 }
 
 }
-
-
